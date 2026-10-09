@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 24px;
+}
+
+.divisao_tela {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.grafico {
+  flex: 1;
+  position: relative;
+  height: 75vh;
+}
